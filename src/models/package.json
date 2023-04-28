@@ -1,0 +1,27 @@
+{
+  "name": "@fightcore/models",
+  "version": "1.0.2",
+  "description": "The models used within the FightCore database for Super Smash Bros Melee. Frame Data",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "FightCore",
+  "license": "ISC",
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FightCore/ts-packages.git"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.0.4"
+  }
+}
